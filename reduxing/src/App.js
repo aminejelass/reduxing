@@ -7,7 +7,7 @@ function App() {
   var khalil =()=>{ i++ ; alert("khalil is a big gay"+i) }
   return (
     <div className="App" >
- 
+    <h1>helloooo</h1>
     </div>
   );
 }
