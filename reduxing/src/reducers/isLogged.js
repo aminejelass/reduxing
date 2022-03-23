@@ -1,8 +1,8 @@
-const loggedReducer = (state=false,action)=>{ 
+const loggedReducer = (state=true,action)=>{ 
     switch(action.type)
-     {case "SIGN_IN":
+     {case "TOGGLE":
        return !state
-      default : 
+      default: 
        return state;
     }
 };
